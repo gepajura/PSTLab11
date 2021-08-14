@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">TLM_Lab9</string>
+    <string name="inicio">inicio</string>
+    <string name="miNombre">Gelimbert Jurado</string>
+    <string name="volver">volver</string>
+    <string name="ingresarURL">Ingrese un URL:</string>
+    <string name="URL">URL</string>
+    <string name="correo">revisar correo</string>
+    <string name="acercaDe">acerca de...</string>
+    <string name="sesion">iniciar sesion</string>
+    <string name="users">Usuario:</string>
+    <string name="password">Contraseña:</string>
+    <string name="enviar">enviar</string>
+    <string name="salir">salir</string>
+</resources>

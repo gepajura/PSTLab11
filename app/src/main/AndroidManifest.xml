@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.tlm_lab9">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.TLM_Lab9"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".BaseDatosRemota" />
+        <activity android:name=".ActivityBD" />
+        <activity android:name=".acercaDe" />
+        <activity android:name=".correo" />
+        <activity android:name=".correoSesion" />
+        <activity android:name=".showInfo" />
+        <activity android:name=".iniciarSesion" />
+        <activity android:name=".webSite" />
+        <activity android:name=".segundaPantalla" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

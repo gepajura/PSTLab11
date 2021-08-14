@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".iniciarSesion">
+
+    <RelativeLayout
+        android:id="@+id/rl"
+        android:layout_width="match_parent"
+        android:layout_height="555dp"
+        tools:layout_editor_absoluteY="176dp">
+
+        <TextView
+            android:id="@+id/txtuser"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="@string/users"
+            android:textSize="@dimen/letra"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/usuario"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txtuser"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/margenBtn"
+            android:hint="@string/users"
+            android:textSize="@dimen/letra" />
+
+        <TextView
+            android:id="@id/passtxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/usuario"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/margenBtn"
+            android:text="@string/password"
+            android:textSize="@dimen/letra"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/pass"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/passtxt"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/margenBtn"
+            android:hint="@string/password"
+            android:textSize="@dimen/letra"
+            android:password="true"/>
+
+        <Button
+            android:id="@+id/btn3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/pass"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/margenBtn"
+            android:onClick="sesion"
+            android:text="@string/sesion" />
+
+
+        <Button
+            android:id="@+id/btnvolver3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/btn3"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/margenBtn"
+            android:onClick="volver"
+            android:text="@string/volver" />
+
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
